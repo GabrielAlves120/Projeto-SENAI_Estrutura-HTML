@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(25, 25, 25);
+    margin-top: 30px;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+h6{
+    color: whitesmoke;
+}
+
+#hrBarra{
+    width: 1640px;
+    border: 2px solid;
+    border-color: #FFF;
+    color: whitesmoke;
+}
+
+hr{
+    width: 500px;
+    border: 2px solid;
+    border-color: #FFF;
+    color: whitesmoke;
+}
+
+#cabecalho{
+    background-color: rgb(160, 140, 120);
+    border-color: rgb(95, 80, 65);
+    border: 2px solid;
+    font-weight: bolder;
+}
+
+table, tr{
+    border: 2px solid;
+    background-color: antiquewhite;
+    border-color: rgb(95, 80, 65);
+}
+
+td{
+    border: 2px solid;
+    border-color: rgb(95, 80, 65);
+}
+
+img, video{
+    width: 25%;
+    height: 25%;
+}
+
+img:hover{
+    width: 50%;
+    height: 50%;
+}
+
+#cabecalho:active{
+    background-color: white;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12;
+    color: rgb(250,250,250);
+}
+
+a{
+    color: whitesmoke;
+}
+
+ul, li{
+    color: whitesmoke;
+}
+
+#barraNav{
+    overflow: hidden;
+    background-color: rgb(35, 35, 35);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+#barraNav a{
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#barraNav a:hover{
+    background-color: white;
+    color: black;
+}
